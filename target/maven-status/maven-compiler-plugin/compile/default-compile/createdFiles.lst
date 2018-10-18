@@ -1,0 +1,12 @@
+com\big\data\Bean\Commentaire.class
+com\big\data\Service\PostService.class
+com\big\data\Repository\UserRepository.class
+com\big\data\Bean\Contenu.class
+com\big\data\WebService\UserWs.class
+com\big\data\Entity\Post.class
+com\big\data\Service\UserService.class
+com\big\data\Entity\User.class
+com\big\data\Repository\PostRepository.class
+com\big\data\Bean\Auth.class
+com\big\data\TechForum.class
+com\big\data\WebService\PostWs.class
