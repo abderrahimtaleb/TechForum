@@ -2,76 +2,46 @@ package com.big.data.Entity;
 
 import com.big.data.Bean.Commentaire;
 import com.big.data.Bean.Contenu;
-import org.neo4j.ogm.annotation.GeneratedValue;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.neo4j.ogm.annotation.NodeEntity;
 import org.neo4j.ogm.annotation.Relationship;
-import org.springframework.data.annotation.Id;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
-
+import java.util.Set;
 
 @NodeEntity
 public class Post {
 
-    @Id
-    @GeneratedValue
     private Long id;
-
     private String titre;
     private String datePublication;
     private Contenu contenu;
     private List<Commentaire> commentaires;
 
-    @Relationship(type = "own", direction = Relationship.UNDIRECTED)
+
+    @Relationship(type = "own", direction = Relationship.INCOMING)
     private User auteur;
 
-    @Relationship(type = "liked", direction = Relationship.UNDIRECTED)
-    private List<User> usersLiked;
+    @JsonIgnore
+    @Relationship(type = "liked by", direction = Relationship.UNDIRECTED)
+    private Set<User> usersLiked;
 
-    @Relationship(type = "saved", direction = Relationship.UNDIRECTED)
-    private List<User> usersSaved;
+    @JsonIgnore
+    @Relationship(type = "commented by", direction = Relationship.UNDIRECTED)
+    private Set<User> usersCommented;
 
 
     public Post() {
     }
 
-    public Post(Long id, String titre, User auteur, String datePublication, Contenu contenu, List<Commentaire> commentaires) {
+    public Post(Long id, User auteur, String titre, String datePublication, Contenu contenu, List<Commentaire> commentaires) {
         this.id = id;
         this.titre = titre;
         this.auteur = auteur;
         this.datePublication = datePublication;
         this.contenu = contenu;
         this.commentaires = commentaires;
-    }
-
-    //like
-    public List<User> like(User liker)
-    {
-        if (usersLiked == null) {
-            usersLiked = new ArrayList<>();
-        }
-        usersLiked.add(liker);
-        return usersLiked;
-    }
-
-
-    //save
-    public List<User> save(User saver)
-    {
-        if (usersSaved == null) {
-            usersSaved = new ArrayList<>();
-        }
-        usersSaved.add(saver);
-        return usersLiked;
-    }
-
-    public List<User> getUsersLiked() {
-        return usersLiked;
-    }
-
-    public List<User> getUsersSaved() {
-        return usersSaved;
     }
 
     public Long getId() {
@@ -82,6 +52,31 @@ public class Post {
         this.id = id;
     }
 
+    public Set<User> getUsersLiked() {
+        return usersLiked;
+    }
+
+    public Set<User> getUsersCommented() {
+        return usersCommented;
+    }
+
+
+    public void likedBy(User user) {
+        if (usersLiked == null) {
+            usersLiked = new HashSet<>();
+        }
+        usersLiked.add(user);
+    }
+
+    public void commentedBy(User user) {
+        if (usersCommented == null) {
+            usersCommented = new HashSet<>();
+        }
+        usersCommented.add(user);
+    }
+
+
+
     public String getTitre() {
         return titre;
     }
@@ -89,6 +84,7 @@ public class Post {
     public void setTitre(String titre) {
         this.titre = titre;
     }
+
 
     public User getAuteur() {
         return auteur;

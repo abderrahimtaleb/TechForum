@@ -1,20 +1,36 @@
 package com.big.data.Entity;
-import org.springframework.data.annotation.Id;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.neo4j.ogm.annotation.GraphId;
+import org.neo4j.ogm.annotation.NodeEntity;
+import org.neo4j.ogm.annotation.Relationship;
 
+import java.util.HashSet;
+import java.util.Set;
+
+@NodeEntity
 public class User {
-    @Id
-    private Long _id;
 
+    @JsonIgnore
+    @Relationship(type = "Follow", direction = Relationship.UNDIRECTED)
+    public Set<User> followers;
     private String nom;
     private String prenom;
     private String dateNaissance;
     private String login;
     private String password;
     private String profil;
+    @JsonIgnore
+    @Relationship(type = "Saved", direction = Relationship.UNDIRECTED)
+    public Set<Post> postsSaved;
+    @GraphId
+    private Long id;
 
-    public User(Long _id, String nom, String prenom, String dateNaissance, String login, String password, String profil) {
-        this._id = _id;
+    public User() {
+    }
+
+    public User(Long id, String nom, String prenom, String dateNaissance, String login, String password, String profil) {
+        this.id = id;
         this.nom = nom;
         this.prenom = prenom;
         this.dateNaissance = dateNaissance;
@@ -23,12 +39,34 @@ public class User {
         this.profil = profil;
     }
 
-    public Long get_id() {
-        return _id;
+    public void follow(User user) {
+        if (followers == null) {
+            followers = new HashSet<>();
+        }
+        followers.add(user);
     }
 
-    public void set_id(Long _id) {
-        this._id = _id;
+    public void savePost(Post post) {
+        if (postsSaved == null) {
+            postsSaved = new HashSet<>();
+        }
+        postsSaved.add(post);
+    }
+
+    public Set<Post> getPostsSaved() {
+        return postsSaved;
+    }
+
+    public Set<User> getFollowers() {
+        return followers;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getNom() {
