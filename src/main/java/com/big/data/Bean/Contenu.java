@@ -1,10 +1,14 @@
 package com.big.data.Bean;
 
+
 public class Contenu {
 
     private String text;
     private String image;
     private String video;
+
+    public Contenu() {
+    }
 
     public Contenu(String text, String image, String video) {
         this.text = text;

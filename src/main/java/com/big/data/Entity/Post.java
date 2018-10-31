@@ -16,7 +16,9 @@ public class Post {
     private Long id;
     private String titre;
     private String datePublication;
-    private Contenu contenu;
+    private String text;
+    private String image;
+    private String video;
     private List<Commentaire> commentaires;
 
 
@@ -35,14 +37,6 @@ public class Post {
     public Post() {
     }
 
-    public Post(Long id, User auteur, String titre, String datePublication, Contenu contenu, List<Commentaire> commentaires) {
-        this.id = id;
-        this.titre = titre;
-        this.auteur = auteur;
-        this.datePublication = datePublication;
-        this.contenu = contenu;
-        this.commentaires = commentaires;
-    }
 
     public Long getId() {
         return id;
@@ -102,12 +96,28 @@ public class Post {
         this.datePublication = datePublication;
     }
 
-    public Contenu getContenu() {
-        return contenu;
+    public String getText() {
+        return text;
     }
 
-    public void setContenu(Contenu contenu) {
-        this.contenu = contenu;
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getVideo() {
+        return video;
+    }
+
+    public void setVideo(String video) {
+        this.video = video;
     }
 
     public List<Commentaire> getCommentaires() {

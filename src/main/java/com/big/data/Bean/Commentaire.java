@@ -1,9 +1,11 @@
 package com.big.data.Bean;
 
 import com.big.data.Entity.User;
+import org.neo4j.ogm.annotation.NodeEntity;
 
 import java.util.List;
 
+@NodeEntity
 public class Commentaire {
 
     private Integer id;
