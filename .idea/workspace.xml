@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d9d620a-9d54-4494-aa21-e48c68a3546d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Bean/Commentaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/Bean/Commentaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Bean/Contenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,14 +35,14 @@
         <counts>
           <entry key="java" value="3654" />
           <entry key="properties" value="71" />
-          <entry key="txt" value="25" />
+          <entry key="txt" value="47" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3654" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="PLAIN_TEXT" value="47" />
           <entry key="Properties" value="71" />
           <entry key="XML" value="20" />
         </counts>
@@ -117,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="149">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="38" />
+              <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1227#1228#0" expanded="true" />
@@ -131,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Bean/Commentaire.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="-406">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#527#528#0" expanded="true" />
                 <element signature="e#552#553#0" expanded="true" />
@@ -245,10 +240,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/WebService/UserWs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Bean/Contenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Bean/Commentaire.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java" />
       </list>
     </option>
   </component>
@@ -366,7 +361,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541068790316" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541069015439" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -472,7 +467,7 @@
       <workItem from="1540976401451" duration="15626000" />
       <workItem from="1540996400314" duration="4365000" />
       <workItem from="1541001147824" duration="3371000" />
-      <workItem from="1541065737947" duration="2399000" />
+      <workItem from="1541065737947" duration="2715000" />
     </task>
     <task id="LOCAL-00001" summary="Ws-neo4j-v2">
       <created>1541002819406</created>
@@ -481,11 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541002819406</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Comment-Relationship">
+      <created>1541068977133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541068977134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51477000" />
+    <option name="totallyTimeSpent" value="51793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -497,7 +499,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.1722365" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1722365" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32884097" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -507,7 +509,7 @@
       <window_info anchor="bottom" id="Spring" order="5" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -566,7 +568,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ws-neo4j-v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ws-neo4j-v2" />
+    <MESSAGE value="Comment-Relationship" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment-Relationship" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -704,18 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -744,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Bean/Commentaire.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="-406">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#527#528#0" expanded="true" />
             <element signature="e#552#553#0" expanded="true" />
@@ -755,6 +746,18 @@
             <element signature="e#851#852#0" expanded="true" />
             <element signature="e#889#890#0" expanded="true" />
             <element signature="e#921#922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
