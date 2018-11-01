@@ -26,7 +26,6 @@ public class Post {
     @Relationship(type = "own", direction = Relationship.INCOMING)
     private User auteur;
 
-    @JsonIgnore
     @Relationship(type = "liked by", direction = Relationship.UNDIRECTED)
     private Set<User> usersLiked;
 
