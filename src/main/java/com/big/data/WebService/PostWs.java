@@ -1,5 +1,6 @@
 package com.big.data.WebService;
 
+import com.big.data.Bean.Commentaire;
 import com.big.data.Entity.Post;
 import com.big.data.Entity.User;
 import com.big.data.Service.PostService;
@@ -46,8 +47,8 @@ public class PostWs {
     }
 
     @PostMapping(value = "comment/{id}")
-    public Set<User> comment(@PathVariable Long id, @RequestBody User user) {
-        return postService.comment(id, user);
+    public List<Commentaire> comment(@PathVariable Long id, @RequestBody Commentaire commentaire) {
+        return postService.comment(id, commentaire);
     }
 
     @DeleteMapping(value = "/{id}")

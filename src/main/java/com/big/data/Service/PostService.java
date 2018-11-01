@@ -1,5 +1,6 @@
 package com.big.data.Service;
 
+import com.big.data.Bean.Commentaire;
 import com.big.data.Entity.Post;
 import com.big.data.Entity.User;
 import com.big.data.Repository.PostRepository;
@@ -29,7 +30,7 @@ public class PostService {
         return postRepository.findByTitre(titre);
     }
 
-    public Post findByTitre(User auteur) {
+    public Post findByAuteur(User auteur) {
         return postRepository.findByAuteur(auteur);
     }
 
@@ -57,9 +58,10 @@ public class PostService {
         return postRepository.save(post).getUsersLiked();
     }
 
-    public Set<User> comment(Long id, User user) {
+    public List<Commentaire> comment(Long id, Commentaire commentaire) {
         Post post = postRepository.findById(id).get();
-        post.commentedBy(user);
-        return postRepository.save(post).getUsersCommented();
+        commentaire.setPost(post);
+        post.commentedBy(commentaire);
+        return postRepository.save(post).getCommentaires();
     }
 }

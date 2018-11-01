@@ -1,38 +1,45 @@
 package com.big.data.Bean;
 
+import com.big.data.Entity.Post;
 import com.big.data.Entity.User;
-import org.neo4j.ogm.annotation.NodeEntity;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.neo4j.ogm.annotation.EndNode;
+import org.neo4j.ogm.annotation.RelationshipEntity;
+import org.neo4j.ogm.annotation.StartNode;
 
 import java.util.List;
 
-@NodeEntity
+@RelationshipEntity(type = "commented_by")
 public class Commentaire {
 
-    private Integer id;
+    private Long id;
+    @StartNode
     private User auteur;
+
+    @JsonIgnore
+    @EndNode
+    private Post post;
+
     private String dateCreation;
     private String text;
     private String image;
     private String video;
-
     private List<Commentaire> reponses;
 
-    public Commentaire(Integer id, User auteur, String dateCreation, String text, String image, String video, List<Commentaire> reponses) {
-        this.id = id;
-        this.auteur = auteur;
-        this.dateCreation = dateCreation;
-        this.text = text;
-        this.image = image;
-        this.video = video;
-        this.reponses = reponses;
-    }
-
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
+    }
+
+    public Post getPost() {
+        return post;
+    }
+
+    public void setPost(Post post) {
+        this.post = post;
     }
 
     public User getAuteur() {

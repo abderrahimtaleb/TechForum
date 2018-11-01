@@ -1,11 +1,12 @@
 package com.big.data.Entity;
 
 import com.big.data.Bean.Commentaire;
-import com.big.data.Bean.Contenu;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.neo4j.ogm.annotation.NodeEntity;
 import org.neo4j.ogm.annotation.Relationship;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -19,7 +20,7 @@ public class Post {
     private String text;
     private String image;
     private String video;
-    private List<Commentaire> commentaires;
+    //private List<Commentaire> commentaires;
 
 
     @Relationship(type = "own", direction = Relationship.INCOMING)
@@ -29,10 +30,10 @@ public class Post {
     @Relationship(type = "liked by", direction = Relationship.UNDIRECTED)
     private Set<User> usersLiked;
 
-    @JsonIgnore
-    @Relationship(type = "commented by", direction = Relationship.UNDIRECTED)
-    private Set<User> usersCommented;
 
+    @JsonIgnoreProperties("post")
+    @Relationship(type = "commented_by", direction = Relationship.UNDIRECTED)
+    private List<Commentaire> commentaires;
 
     public Post() {
     }
@@ -50,10 +51,9 @@ public class Post {
         return usersLiked;
     }
 
-    public Set<User> getUsersCommented() {
-        return usersCommented;
+    public List<Commentaire> getCommentaires() {
+        return commentaires;
     }
-
 
     public void likedBy(User user) {
         if (usersLiked == null) {
@@ -62,11 +62,11 @@ public class Post {
         usersLiked.add(user);
     }
 
-    public void commentedBy(User user) {
-        if (usersCommented == null) {
-            usersCommented = new HashSet<>();
+    public void commentedBy(Commentaire commentaire) {
+        if (commentaires == null) {
+            commentaires = new ArrayList<>();
         }
-        usersCommented.add(user);
+        commentaires.add(commentaire);
     }
 
 
@@ -120,11 +120,4 @@ public class Post {
         this.video = video;
     }
 
-    public List<Commentaire> getCommentaires() {
-        return commentaires;
-    }
-
-    public void setCommentaires(List<Commentaire> commentaires) {
-        this.commentaires = commentaires;
-    }
 }
