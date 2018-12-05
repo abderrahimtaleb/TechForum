@@ -1,20 +1,22 @@
 package com.big.data.Entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
-public class User {
+public class User implements Serializable {
 
-    @JsonIgnore
-    public Set<User> followers;
+    private String id;
     private String nom;
     private String prenom;
     private String dateNaissance;
     private String login;
     private String password;
     private String profil;
-    private String id;
+
+    @JsonIgnore
+    public Set<User> followers;
     @JsonIgnore
     public Set<Post> postsSaved;
     private String email;

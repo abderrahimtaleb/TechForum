@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9d620a-9d54-4494-aa21-e48c68a3546d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/big/data/HbaseConfig/HbaseConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Bean/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Auth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Bean/Commentaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Commentaire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/Entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Repository/PostRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Repository/UserRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/Service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/TechForum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/TechForum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/big/data/WebService/UserWs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/big/data/WebService/UserWs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/Bean/Auth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/Bean/Commentaire.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/Entity/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/big/data/Entity/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/Entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/big/data/Entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/Repository/PostRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/Repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/Service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/big/data/Service/PostService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/big/data/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/TechForum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/big/data/TechForum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/WebService/PostWs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/big/data/WebService/PostWs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/big/data/WebService/UserWs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/big/data/WebService/UserWs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,7 +21,7 @@
     <session id="463964813">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -55,40 +32,41 @@
           <entry key="project.open.time.51" value="2" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5056" />
+          <entry key="java" value="5162" />
           <entry key="properties" value="96" />
-          <entry key="txt" value="47" />
+          <entry key="txt" value="62" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5056" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="JAVA" value="5162" />
+          <entry key="PLAIN_TEXT" value="62" />
           <entry key="Properties" value="96" />
           <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="11" />
-          <entry key="java" value="62" />
+          <entry key="class" value="14" />
+          <entry key="java" value="63" />
           <entry key="properties" value="7" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="11" />
-          <entry key="JAVA" value="62" />
+          <entry key="CLASS" value="14" />
+          <entry key="JAVA" value="63" />
           <entry key="Properties" value="7" />
           <entry key="XML" value="5" />
         </counts>
@@ -104,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+            <state relative-caret-position="58">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1190#1191#0" expanded="true" />
@@ -122,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/TechForum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="120">
               <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="142">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
@@ -143,23 +121,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="562">
+              <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/WebService/UserWs.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="170">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,8 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <state relative-caret-position="391">
+              <caret line="152" selection-start-line="152" selection-end-line="160" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,10 +159,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1068">
-              <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+            <state relative-caret-position="197">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,12 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Auth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -205,8 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/HbaseConfig/HbaseConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="-190">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -257,18 +238,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Repository/PostRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Bean/Contenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Bean/Commentaire.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Commentaire.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/HbaseConfig/HbaseConnect.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/big/data/Entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/big/data/TechForum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Auth.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/WebService/UserWs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/big/data/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/big/data/TechForum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/big/data/Entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java" />
       </list>
     </option>
   </component>
@@ -290,7 +271,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,6 +311,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TechForumProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TechForumProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="WebService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -344,6 +333,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -468,7 +458,8 @@
       <workItem from="1541065737947" duration="8028000" />
       <workItem from="1542059436208" duration="24000" />
       <workItem from="1543957546400" duration="14415000" />
-      <workItem from="1543973022887" duration="3578000" />
+      <workItem from="1543973022887" duration="3891000" />
+      <workItem from="1544036893763" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="Ws-neo4j-v2">
       <created>1541002819406</created>
@@ -484,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541068977134</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Hbase-User-Crud">
+      <created>1543977172697</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543977172698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75123000" />
+    <option name="totallyTimeSpent" value="80354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -500,7 +498,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17802057" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17994858" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32884097" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -510,7 +508,7 @@
       <window_info anchor="bottom" id="Spring" order="5" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.73719674" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.6738545" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.58221024" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -570,7 +568,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ws-neo4j-v2" />
     <MESSAGE value="Comment-Relationship" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment-Relationship" />
+    <MESSAGE value="Hbase-User-Crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hbase-User-Crud" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -580,15 +579,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/big/data/HbaseConfig/HbaseConnect.java</url>
-          <line>36</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/big/data/Service/UserService.java</url>
-          <line>110</line>
+          <line>108</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -636,13 +641,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Bean/Contenu.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Repository/PostRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Repository/UserRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Commentaire.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -667,17 +665,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/WebService/UserWs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="408">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/HbaseConfig/HbaseConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/TechForum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+        <state relative-caret-position="58">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1190#1191#0" expanded="true" />
@@ -690,69 +725,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Post.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/HbaseConfig/HbaseConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="170">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/TechForum.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="123">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Entity/Auth.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/WebService/UserWs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="391">
+          <caret line="152" selection-start-line="152" selection-end-line="160" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Service/PostService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/Service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        <state relative-caret-position="562">
+          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -761,10 +766,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/big/data/WebService/PostWs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1068">
-          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+        <state relative-caret-position="197">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
           </folding>
         </state>
       </provider>

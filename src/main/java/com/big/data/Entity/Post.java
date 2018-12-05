@@ -1,5 +1,6 @@
 package com.big.data.Entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.HashSet;
@@ -7,26 +8,26 @@ import java.util.Set;
 
 public class Post {
 
-    private Long id;
+    private String id;
     private String titre;
     private String datePublication;
     private String text;
     private String image;
     private String video;
     private User auteur;
+    @JsonIgnore
     private Set<User> usersLiked;
-
     @JsonIgnoreProperties("post")
     private Set<Commentaire> commentaires;
 
     public Post() {
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
