@@ -1,9 +1,12 @@
-package com.big.data.Bean;
+package com.big.data.Entity;
 
 public class Auth {
     private String login;
     private String password;
 
+    public Auth() {
+
+    }
     public Auth(String login, String password) {
         this.login = login;
         this.password = password;

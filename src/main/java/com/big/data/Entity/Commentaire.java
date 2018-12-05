@@ -1,23 +1,15 @@
-package com.big.data.Bean;
+package com.big.data.Entity;
 
-import com.big.data.Entity.Post;
-import com.big.data.Entity.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.neo4j.ogm.annotation.EndNode;
-import org.neo4j.ogm.annotation.RelationshipEntity;
-import org.neo4j.ogm.annotation.StartNode;
 
 import java.util.List;
 
-@RelationshipEntity(type = "commented_by")
 public class Commentaire {
 
     private Long id;
-    @StartNode
     private User auteur;
 
     @JsonIgnore
-    @EndNode
     private Post post;
 
     private String dateCreation;

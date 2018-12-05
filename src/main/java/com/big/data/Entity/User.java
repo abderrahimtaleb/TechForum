@@ -1,18 +1,12 @@
 package com.big.data.Entity;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.neo4j.ogm.annotation.GraphId;
-import org.neo4j.ogm.annotation.NodeEntity;
-import org.neo4j.ogm.annotation.Relationship;
 
 import java.util.HashSet;
 import java.util.Set;
 
-@NodeEntity
 public class User {
 
     @JsonIgnore
-    @Relationship(type = "Follow", direction = Relationship.UNDIRECTED)
     public Set<User> followers;
     private String nom;
     private String prenom;
@@ -20,16 +14,15 @@ public class User {
     private String login;
     private String password;
     private String profil;
+    private String id;
     @JsonIgnore
-    @Relationship(type = "Saved", direction = Relationship.UNDIRECTED)
     public Set<Post> postsSaved;
-    @GraphId
-    private Long id;
+    private String email;
 
     public User() {
     }
 
-    public User(Long id, String nom, String prenom, String dateNaissance, String login, String password, String profil) {
+    public User(String id, String nom, String prenom, String dateNaissance, String login, String password, String profil) {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
@@ -61,11 +54,11 @@ public class User {
         return followers;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -79,6 +72,14 @@ public class User {
 
     public String getPrenom() {
         return prenom;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public void setPrenom(String prenom) {

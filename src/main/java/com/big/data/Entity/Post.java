@@ -1,17 +1,10 @@
 package com.big.data.Entity;
 
-import com.big.data.Bean.Commentaire;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import org.neo4j.ogm.annotation.NodeEntity;
-import org.neo4j.ogm.annotation.Relationship;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
-@NodeEntity
 public class Post {
 
     private Long id;
@@ -20,23 +13,14 @@ public class Post {
     private String text;
     private String image;
     private String video;
-    //private List<Commentaire> commentaires;
-
-
-    @Relationship(type = "own", direction = Relationship.INCOMING)
     private User auteur;
-
-    @Relationship(type = "liked by", direction = Relationship.UNDIRECTED)
     private Set<User> usersLiked;
 
-
     @JsonIgnoreProperties("post")
-    @Relationship(type = "commented_by", direction = Relationship.UNDIRECTED)
-    private List<Commentaire> commentaires;
+    private Set<Commentaire> commentaires;
 
     public Post() {
     }
-
 
     public Long getId() {
         return id;
@@ -50,7 +34,7 @@ public class Post {
         return usersLiked;
     }
 
-    public List<Commentaire> getCommentaires() {
+    public Set<Commentaire> getCommentaires() {
         return commentaires;
     }
 
@@ -63,7 +47,7 @@ public class Post {
 
     public void commentedBy(Commentaire commentaire) {
         if (commentaires == null) {
-            commentaires = new ArrayList<>();
+            commentaires = new HashSet<>();
         }
         commentaires.add(commentaire);
     }

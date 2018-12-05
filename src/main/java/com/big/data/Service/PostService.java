@@ -1,20 +1,11 @@
 package com.big.data.Service;
 
-import com.big.data.Bean.Commentaire;
-import com.big.data.Entity.Post;
-import com.big.data.Entity.User;
-import com.big.data.Repository.PostRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
-import java.util.Set;
 
 @Service
-@Transactional
 public class PostService {
 
+    /*
     @Autowired
     PostRepository postRepository;
 
@@ -58,10 +49,17 @@ public class PostService {
         return postRepository.save(post).getUsersLiked();
     }
 
-    public List<Commentaire> comment(Long id, Commentaire commentaire) {
+    public Set<Commentaire> comment(Long id, Commentaire commentaire) {
         Post post = postRepository.findById(id).get();
         commentaire.setPost(post);
         post.commentedBy(commentaire);
         return postRepository.save(post).getCommentaires();
     }
+
+    public Set<Commentaire> getComments(Long id) {
+        Post post = postRepository.findById(id).get();
+        return post.getCommentaires();
+    }
+
+    */
 }

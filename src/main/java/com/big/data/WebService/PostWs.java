@@ -1,20 +1,15 @@
 package com.big.data.WebService;
 
-import com.big.data.Bean.Commentaire;
-import com.big.data.Entity.Post;
-import com.big.data.Entity.User;
-import com.big.data.Service.PostService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-import java.util.Set;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/posts")
 @CrossOrigin(origins = "http://localhost:4200")
 public class PostWs {
 
+    /*
     @Autowired
     PostService postService;
 
@@ -47,7 +42,7 @@ public class PostWs {
     }
 
     @PostMapping(value = "comment/{id}")
-    public List<Commentaire> comment(@PathVariable Long id, @RequestBody Commentaire commentaire) {
+    public Set<Commentaire> comment(@PathVariable Long id, @RequestBody Commentaire commentaire) {
         return postService.comment(id, commentaire);
     }
 
@@ -56,4 +51,12 @@ public class PostWs {
     {
         postService.delete(id);
     }
+
+    @GetMapping(value = "comments/{id}")
+    public Set<Commentaire> comments(@PathVariable Long id)
+    {
+        return postService.getComments(id);
+    }
+
+    */
 }

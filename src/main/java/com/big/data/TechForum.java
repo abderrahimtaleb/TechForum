@@ -2,14 +2,14 @@ package com.big.data;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
 
 @SpringBootApplication
-@EnableNeo4jRepositories
 public class TechForum {
 
     public static void main(String args[])
     {
+        //HbaseConnect.getInstance();
+        //HbaseConnect.initTables(); //first run -> create tables ; otherwise comment this line
         SpringApplication.run(TechForum.class, args);
     }
 }
